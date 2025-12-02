@@ -73,3 +73,35 @@ dd {
     padding: 8px 0;
     line-height: 1.6;
 }
+
+table {
+    width: 100%;
+    background: linear-gradient(135deg, #1B3C53 0%, #234C6A 100%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    box-shadow: 0 10px 30px rgba(27, 60, 83, 0.3);
+    border-collapse: collapse;
+    max-width: 900px;
+}
+
+th {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+td {
+    padding: 12px 15px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
