@@ -105,3 +105,11 @@ td {
 tbody tr:last-child td {
     border-bottom: none;
 }
+
+caption {
+    color: white;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+}
