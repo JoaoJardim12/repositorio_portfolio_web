@@ -52,6 +52,7 @@
 <body>
     <div class="dados" id="resultado"></div>
 
+    <img src="receitas/imagens/receitas-com-carne-moida-pratos-simples-e-deliciosos-para-usar-o-ingrediente-13.jpg" alt="receita_panqueca">
     <script>
         // Captura os parâmetros da URL
         const params = new URLSearchParams(window.location.search);
@@ -95,14 +96,14 @@
       `;
             document.body.appendChild(link);
         }
-        if (comida && comida.toLowerCase().includes("bolo de abacaxi")) {
+        if (comida && comida.toLowerCase().includes("receita-panqueca")) {
             const link = document.createElement("a");
-            link.href = "./receitas/bolo_abacaxi.html";
+            link.href = "./receitas/receita3.html";
             link.target = "_blank";
-            link.className = "link-bolo";
+            link.className = "link-panqueca";
             link.innerHTML = `
-        <img width="300" src="./receitas/imagens/bolo_abacaxi.jpeg" alt="Bolo de Abacaxi">
-        <p><strong>Clique para ver a receita de Bolo de Abacaxi</strong></p>
+        <img width="300" src="receitas/imagens/receitas-com-carne-moida-pratos-simples-e-deliciosos-para-usar-o-ingrediente-13.jpg" alt="receita_panqueca">
+        <p><strong>Clique para ver a receita com panqueca</strong></p>
       `;
             document.body.appendChild(link);
         }
