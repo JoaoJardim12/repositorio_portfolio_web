@@ -72,30 +72,15 @@
       <p><strong>Mensagem:</strong> ${mensagem || "Sem mensagem"}</p>
       <p><strong>Comida Favorita:</strong> ${comida || "Não informado"}</p>
     `;
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        // Alterem as linhas abaixo
-        //
-        //
-        //
-        //
-        //
-        //
-        //
-        
-        if (comida && comida.toLowerCase().includes("bolo de cenoura")) {
+
+        if (comida && comida.toLowerCase().includes("receita-frango")) {
             const link = document.createElement("a");
-            link.href = "./receitas/bolo_cenoura.html";
+            link.href = "./receitas/receita1.html";
             link.target = "_blank";
-            link.className = "link-bolo";
+            link.className = "link-frango";
             link.innerHTML = `
-        <img width="300" src="./receitas/imagens/bolo_cenoura.jpeg" alt="Bolo de Cenoura">
-        <p><strong>Clique para ver a receita de Bolo de Cenoura</strong></p>
+        <img width="300" src="receitas/imagens/frango-desfiado-parmegiana-sobras-alimentos.jpg" alt="receita_frango">
+        <p><strong>Clique para ver a receita com frango/strong></p>
       `;
             document.body.appendChild(link);
         }
