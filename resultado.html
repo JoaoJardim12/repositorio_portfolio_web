@@ -84,14 +84,14 @@
       `;
             document.body.appendChild(link);
         }
-        if (comida && comida.toLowerCase().includes("bolo de chocolate")) {
+        if (comida && comida.toLowerCase().includes("receita-carne")) {
             const link = document.createElement("a");
-            link.href = "./receitas/bolo_chocolate.html";
+            link.href = "./receitas/receita2.html";
             link.target = "_blank";
-            link.className = "link-bolo";
+            link.className = "link-carne";
             link.innerHTML = `
-        <img width="300" src="./receitas/imagens/bolo_chocolate.jpg" alt="Bolo de Chocolate">
-        <p><strong>Clique para ver a receita de Bolo de Chocolate</strong></p>
+        <img width="300" src="receitas/imagens/OIP.webp" alt="receita_carne">
+        <p><strong>Clique para ver a receita com carne/strong></p>
       `;
             document.body.appendChild(link);
         }
